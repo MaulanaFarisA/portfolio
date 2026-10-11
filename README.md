@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
 
-## Getting Started
+Personal portfolio site for Maulana Faris (maulana.app) — work, about, stack, and contact.
 
-First, run the development server:
+## Stack
+
+- **Next.js 15** (App Router)
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS**
+
+## Local development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev      # http://localhost:3000
+npm run build    # production build
+npm run start    # serve the production build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Routes: `/`, `/work`, `/work/[slug]`, `/about`, `/stack`, `/contact`. Static assets (images, CVs, resume PDFs) live in `public/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deployment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Deployment is automatic on push:
 
-## Learn More
+- Push to `main` → **production** deploy on Vercel.
+- Push to any other branch → **preview** deploy on Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+Vercel project: **portfolio** (team `fewezs-projects`), connected to `https://github.com/MaulanaFarisA/portfolio` (public, `main` branch).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Domain & DNS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Primary host is the apex domain **maulana.app**.
+- **www.maulana.app** 308-redirects to the apex.
+- The DNS zone is managed at **Vercel**, using the nameservers `ns1.vercel-dns.com` / `ns2.vercel-dns.com` delegated from Name.com.
+- The Google Search Console TXT verification record lives in the Vercel DNS zone.
 
-## Deploy on Vercel
+## Rollback
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To roll back a bad release:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Open the Vercel dashboard and go to the **portfolio** project.
+2. Open **Deployments**.
+3. Select a previous known-healthy deployment.
+4. Click **Promote to Production**.
+
+This is instant and does **not** trigger a rebuild.
+
+## CV files
+
+Static assets in `public/`:
+
+| File | Purpose |
+| --- | --- |
+| `cv.html` | 2-page CV |
+| `cv-full.html` | Long-form archive |
+| `cv-ats.html` | ATS-plain variant |
+| `resume.pdf` | Generated PDF served to recruiters |
+| `resume-ats.pdf` | Generated ATS-friendly PDF |
+
+The `/contact` page links to `/resume.pdf`.

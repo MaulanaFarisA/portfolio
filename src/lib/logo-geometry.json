@@ -1,0 +1,35 @@
+{
+  "size": 24,
+  "palette": {
+    "F": "var(--border-strong)",
+    "H": "var(--text-primary)",
+    "S": "var(--surface-sunken)",
+    "A": "var(--accent-amber)"
+  },
+  "rows": [
+    "FFFFFFFFFFFFFFFFFFFFFFFF",
+    "FHHHHHHHHHHHHHHHHHHHHHHF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH.......AAAAAA.......SF",
+    "FH.......AAAAAA.......SF",
+    "FH.......AAAAAA.......SF",
+    "FH.......AAAAAA.......SF",
+    "FH.......AAAAAA.......SF",
+    "FH.......AAAAAA.......SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FH....................SF",
+    "FSSSSSSSSSSSSSSSSSSSSSSF",
+    "FFFFFFFFFFFFFFFFFFFFFFFF"
+  ]
+}

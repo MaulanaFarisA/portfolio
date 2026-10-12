@@ -55,7 +55,7 @@ const timeline = [
   },
   {
     year: "NOW",
-    text: "Leading the Pesona Kulon Progo platform team at Dinas Pariwisata. Open to internships.",
+    text: "Interning at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo, leading the Pesona Kulon Progo platform team. Open to internships.",
   },
 ] as const;
 
@@ -83,7 +83,7 @@ export default function About() {
             {"Maulana Faris Al Ghifari"}
           </h2>
           <p className="about-bio__text" data-testid="about-bio">
-            {"I'm a Computer Science student at Universitas Gadjah Mada, Yogyakarta, building web products end-to-end and learning how to break them, too. I'm a Bakti BCA 2026 scholarship awardee, selected from 700 students across 20 universities. Over the past two years I've shipped production platforms: Buku Tahu, a bookkeeping app for tofu SMEs, and the Jemparingan QR scoring system, both live. I built core sections of the APECX 2026 platform and co-authored two cybersecurity training modules for IndoCEISS. As team lead at Dinas Pariwisata Kulon Progo, I'm leading a 6-person team rebuilding the regency's tourism platform. Beyond code, I lead Event Activation at OmahTI UGM, running 13 programs in one term, coordinating across HR, PR, design, and all 8 technical divisions. My goal is to grow into an engineer who builds products that are user-centered and secure by design. Currently open to internships in software engineering, web development, and cybersecurity."}
+            {"I'm a Computer Science student at Universitas Gadjah Mada, Yogyakarta, building web products end-to-end and learning how to break them, too. I'm a Bakti BCA 2026 scholarship awardee, selected from 700 students across 20 universities. Over the past two years I've shipped production platforms: Buku Tahu, a bookkeeping app for tofu SMEs, and the Jemparingan QR scoring system, both live. I built core sections of the APECX 2026 platform and co-authored two cybersecurity training modules for IndoCEISS. As an intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo, I'm leading a 6-person team rebuilding the regency's tourism platform. Beyond code, I lead Event Activation at OmahTI UGM, running 13 programs in one term, coordinating across HR, PR, design, and all 8 technical divisions. My goal is to grow into an engineer who builds products that are user-centered and secure by design. Currently open to internships in software engineering, web development, and cybersecurity."}
           </p>
         </WindowCard>
       </section>

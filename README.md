@@ -33,8 +33,8 @@ Vercel project: **portfolio** (team `fewezs-projects`), connected to `https://gi
 
 - Primary host is the apex domain **maulana.app**.
 - **www.maulana.app** 308-redirects to the apex.
-- The DNS zone is managed at **Vercel**, using the nameservers `ns1.vercel-dns.com` / `ns2.vercel-dns.com` delegated from Name.com.
-- The Google Search Console TXT verification record lives in the Vercel DNS zone.
+- DNS records are managed at **Name.com** (external DNS records): an A record points to Vercel (`216.198.79.1`), and a CNAME for `www` points to Vercel (`8d7ec5dce7c9fd8f.vercel-dns-017.com`).
+- The Google Search Console TXT verification record lives in the Name.com DNS zone.
 
 ## Rollback
 

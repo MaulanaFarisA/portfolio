@@ -7,21 +7,21 @@ import "./globals.css";
 const inter = Inter({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  display: "optional",
+  display: "swap",
   variable: "--font-inter",
 });
 
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600"],
-  display: "optional",
+  display: "swap",
   variable: "--font-jetbrains",
 });
 
 const vt323 = VT323({
   subsets: ["latin"],
   weight: "400",
-  display: "optional",
+  display: "swap",
   variable: "--font-vt323",
 });
 

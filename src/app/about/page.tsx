@@ -128,7 +128,7 @@ export default function About() {
       <StoryPanel
         scene="terminal"
         label="Where it happens"
-        caption="The CRT is the last room in the sequence: past the front door, past the desk, down to the machine that turns an idea into something that runs."
+        caption="My favorite corner of the house: one glowing screen, unlimited coffee, and ideas slowly turning into things that actually run."
       />
 
       {/* ── Status footnote ─────────────────────────────────────────── */}

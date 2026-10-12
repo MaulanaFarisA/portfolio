@@ -38,6 +38,21 @@ export function personJsonLd(url: string = `${BASE}/`): Record<string, unknown> 
     "@type": "Person",
     name: "Maulana Faris Al Ghifari",
     url,
+    image: `${BASE}/avatar.jpg`,
+    jobTitle: "Computer Science Student",
+    description: "Computer Science student at Universitas Gadjah Mada (UGM), building web products end-to-end. Intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
+    alumniOf: {
+      "@type": "CollegeOrUniversity",
+      name: "Universitas Gadjah Mada",
+      alternateName: "UGM",
+      url: "https://ugm.ac.id",
+    },
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Yogyakarta",
+      addressCountry: "ID",
+    },
+    knowsAbout: ["Web Development", "TypeScript", "React", "Next.js", "Cybersecurity"],
     sameAs: ["https://github.com/MaulanaFarisA", "https://www.linkedin.com/in/maulanafaris", "https://www.instagram.com/maulanafariiss"],
   };
 }

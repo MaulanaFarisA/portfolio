@@ -8,12 +8,12 @@ import type { Metadata } from "next";
 
 /** §8.2 Home meta + §8.3 Person/WebSite JSON-LD. */
 export const metadata: Metadata = {
-  title: "Maulana Faris - Web Developer",
-  description: "Computer Science student at UGM, building web products end-to-end.",
+  title: "Maulana Faris Al Ghifari - Computer Science Student at UGM",
+  description: "Maulana Faris Al Ghifari - Computer Science student at UGM, building web products end-to-end. Intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
   alternates: { canonical: "https://maulana.app/" },
   openGraph: {
-    title: "Maulana Faris - Web Developer",
-    description: "Computer Science student at UGM, building web products end-to-end.",
+    title: "Maulana Faris Al Ghifari - Computer Science Student at UGM",
+    description: "Maulana Faris Al Ghifari - Computer Science student at UGM, building web products end-to-end. Intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
     url: "https://maulana.app/",
     locale: "en_US",
     type: "website",

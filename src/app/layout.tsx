@@ -26,8 +26,8 @@ const vt323 = VT323({
 });
 
 export const metadata: Metadata = {
-  title: "Maulana Faris",
-  description: "Computer Science student at UGM, building web products end-to-end.",
+  title: "Maulana Faris Al Ghifari",
+  description: "Maulana Faris Al Ghifari - Computer Science student at UGM, building web products end-to-end. Intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },

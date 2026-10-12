@@ -7,11 +7,11 @@ import { projects } from "@/content/projects";
 
 /** §8.2 Work index meta — title/description/canonical/OG/og:locale. */
 export const metadata: Metadata = {
-  title: "Work - Maulana Faris",
+  title: "Work - Maulana Faris Al Ghifari",
   description: "Computer Science student at UGM, building web products end-to-end.",
   alternates: { canonical: "https://maulana.app/work" },
   openGraph: {
-    title: "Work - Maulana Faris",
+    title: "Work - Maulana Faris Al Ghifari",
     description: "Computer Science student at UGM, building web products end-to-end.",
     url: "https://maulana.app/work",
     locale: "en_US",

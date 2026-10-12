@@ -4,11 +4,11 @@ import { WindowCard } from "@/components/WindowCard";
 
 /** §8.2 Stack meta — title/description/canonical/OG/og:locale. */
 export const metadata: Metadata = {
-  title: "Stack - Maulana Faris",
+  title: "Stack - Maulana Faris Al Ghifari",
   description: "Computer Science student at UGM, building web products end-to-end.",
   alternates: { canonical: "https://maulana.app/stack" },
   openGraph: {
-    title: "Stack - Maulana Faris",
+    title: "Stack - Maulana Faris Al Ghifari",
     description: "Computer Science student at UGM, building web products end-to-end.",
     url: "https://maulana.app/stack",
     locale: "en_US",

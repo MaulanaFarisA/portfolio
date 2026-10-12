@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: CaseStudyPageProps): Promise<
   const { slug } = await params;
   const project = getProjectBySlug(slug);
   if (!isPublishable(project)) return {};
-  const title = `${project.title} - Maulana Faris`;
+  const title = `${project.title} - Maulana Faris Al Ghifari`;
   const description = project.overview.slice(0, 155);
   return {
     title,

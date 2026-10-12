@@ -4,11 +4,11 @@ import { ogImage } from "@/components/JsonLd";
 
 /** §8.2 Contact meta — title/description/canonical/OG/og:locale. */
 export const metadata: Metadata = {
-  title: "Contact - Maulana Faris",
+  title: "Contact - Maulana Faris Al Ghifari",
   description: "Get in touch - email, social links, and resume download.",
   alternates: { canonical: "https://maulana.app/contact" },
   openGraph: {
-    title: "Contact - Maulana Faris",
+    title: "Contact - Maulana Faris Al Ghifari",
     description: "Get in touch - email, social links, and resume download.",
     url: "https://maulana.app/contact",
     locale: "en_US",

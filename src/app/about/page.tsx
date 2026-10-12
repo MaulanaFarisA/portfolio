@@ -8,12 +8,12 @@ import { StoryPanelMotion } from "@/components/StoryPanelMotion";
 
 /** §8.2 About meta + §8.3 Person JSON-LD. */
 export const metadata: Metadata = {
-  title: "About - Maulana Faris",
-  description: "Computer Science student at UGM, building web products end-to-end.",
+  title: "About Maulana Faris Al Ghifari - UGM Computer Science",
+  description: "About Maulana Faris Al Ghifari - Computer Science student at UGM, intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
   alternates: { canonical: "https://maulana.app/about" },
   openGraph: {
-    title: "About - Maulana Faris",
-    description: "Computer Science student at UGM, building web products end-to-end.",
+    title: "About Maulana Faris Al Ghifari - UGM Computer Science",
+    description: "About Maulana Faris Al Ghifari - Computer Science student at UGM, intern at Kominfo Kulon Progo and Dinas Pariwisata Kulon Progo.",
     url: "https://maulana.app/about",
     locale: "en_US",
     type: "website",

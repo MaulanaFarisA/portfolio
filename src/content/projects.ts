@@ -43,7 +43,7 @@ export const projects: Project[] = [
     year: "2026",
     stack: ["Next.js", "TypeScript", "Docker", "Git"],
     link: "https://github.com/apecxugm/apecx2026",
-    image: "/work/apecx-cover.png",
+    image: "/work/apecx-cover.jpg",
     overview:
       "Core sections of the official web platform for APECX 2026, an Asia-Pacific competition organized by SPE UGM Student Chapter with 490+ registered teams. I built the About Us section, the responsive navbar, the sponsor CTA, and the competition archive gallery.",
     problem:

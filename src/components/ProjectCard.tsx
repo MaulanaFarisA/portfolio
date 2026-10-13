@@ -49,8 +49,8 @@ export function ProjectCard({ project, featured = false, className }: ProjectCar
             src={project.image}
             alt=""
             className="project-card__thumb-img"
-            width={640}
-            height={400}
+            width={1600}
+            height={1000}
           />
         ) : (
           <span className="project-card__thumb-placeholder" aria-hidden="true">
